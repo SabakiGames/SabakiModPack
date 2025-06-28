@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xml>
-    <Name value="Personal_MyUseMod" />
-    <DisplayName value="Personal MyUse Mod" />
-    <Version value="1.0" />
-    <Description value="Adds bulk versions of common crafting materials (6000 units per item) for improved inventory management and forge compatibility." />
-    <Author value="YourName" />
-    <Website value="" />
-</xml>
