@@ -1,0 +1,12 @@
+<configs>
+  <append xpath="/blocks/block[@name='forge']/property[@name='AcceptedItems']/value">
+    <value>resourceClaySoilBulk</value>
+    <value>resourceBrassBulk</value>
+    <value>resourceCoalBulk</value>
+    <value>resourcePotassiumNitratePowderBulk</value>
+    <value>resourceSandBulk</value>
+    <value>resourceBrokenGlassBulk</value>
+  </append>
+  
+  <set xpath="/blocks/block[@name='forge']/property[@name='StorageSlots']/@value">6</set>
+</configs>

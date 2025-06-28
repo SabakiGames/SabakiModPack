@@ -1,0 +1,12 @@
+Key,English,Japanese,Description
+resourceClayLumpBundle,Clay Bundle,粘土（バルク・6000）,圧縮された粘土。開封すると大量の粘土が得られる。
+resourceCrushedSandBundle,Sand Bundle,砂（バルク・6000）,圧縮された砂。開封すると大量の砂が得られる。
+resourceScrapBrassBundle,Brass Bundle,真鍮（バルク・6000）,圧縮された真鍮スクラップ。
+resourceCoalBundle,Coal Bundle,石炭（バルク・6000）,圧縮された石炭の塊。
+resourcePotassiumNitratePowderBundle,Nitrate Bundle,硝酸カリウム（バルク・6000）,圧縮された硝酸カリウムの粉末。
+resourceBrokenGlassBundle,Broken Glass Bundle,割れガラス（バルク・6000）,破片ガラスをバンドル化。
+resourceCobblestoneBundle,Cobblestone Bundle,玉石岩（バルク・6000）,建築用の玉石岩を圧縮。
+resourceConcreteMixBundle,Concrete Mix Bundle,コンクリートミックス（バルク・6000）,建築用のコンクリ混合材。
+resourceCementBundle,Cement Bundle,セメント（バルク・6000）,セメントの大量バンドル。
+resourceForgedIronBundle,Forged Iron Bundle,錬鉄（バルク・6000）,錬鉄をまとめて圧縮。
+resourceForgedSteelBundle,Forged Steel Bundle,鍛鋼（バルク・6000）,鍛鋼素材の大型バンドル。

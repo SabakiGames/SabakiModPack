@@ -1,0 +1,11 @@
+<configs>
+  <remove xpath="/progression/perks/book [@name='perkArtOfMiningPallets']"/>
+  <insertAfter xpath="/progression//perks/book [@name='perkArtOfMiningBlackStrap']">
+    <book name="perkArtOfMiningPallets" parent="skillArtOfMining" max_level="1" base_skill_point_cost="0"
+          name_key="bookArtOfMiningPallets" desc_key="perkArtOfMiningPalletsDesc" long_desc_key="perkArtOfMiningPalletsLongDesc">
+      <effect_group>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="resourceClayLumpBundle,resourceCrushedSandBundle,resourceScrapBrassBundle,resourceCoalBundle,resourcePotassiumNitratePowderBundle,resourceBrokenGlassBundle,resourceCobblestoneBundle,resourceConcreteMixBundle,resourceCementBundle,resourceForgedIronBundle,resourceForgedSteelBundle"/>
+      </effect_group>
+    </book>
+  </insertAfter>
+</configs>

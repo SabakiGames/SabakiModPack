@@ -1,0 +1,37 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="resourceClayLumpBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceClayLump" count="6000"/>
+    </recipe>
+    <recipe name="resourceCrushedSandBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceCrushedSand" count="6000"/>
+    </recipe>
+    <recipe name="resourceScrapBrassBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceScrapBrass" count="6000"/>
+    </recipe>
+    <recipe name="resourceCoalBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceCoal" count="6000"/>
+    </recipe>
+    <recipe name="resourcePotassiumNitratePowderBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourcePotassiumNitratePowder" count="6000"/>
+    </recipe>
+    <recipe name="resourceBrokenGlassBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceBrokenGlass" count="6000"/>
+    </recipe>
+    <recipe name="resourceCobblestoneBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceCobblestones" count="6000"/>
+    </recipe>
+    <recipe name="resourceConcreteMixBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceConcreteMix" count="6000"/>
+    </recipe>
+    <recipe name="resourceCementBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceCement" count="6000"/>
+    </recipe>
+    <recipe name="resourceForgedIronBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceForgedIron" count="6000"/>
+    </recipe>
+    <recipe name="resourceForgedSteelBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+      <ingredient name="resourceForgedSteel" count="6000"/>
+    </recipe>
+  </append>
+</configs>
