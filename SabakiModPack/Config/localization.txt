@@ -10,3 +10,27 @@ resourceConcreteMixBundle,Concrete Mix Bundle,コンクリートミックス（�
 resourceCementBundle,Cement Bundle,セメント（バルク・6000）,セメントの大量バンドル。
 resourceForgedIronBundle,Forged Iron Bundle,錬鉄（バルク・6000）,錬鉄をまとめて圧縮。
 resourceForgedSteelBundle,Forged Steel Bundle,鍛鋼（バルク・6000）,鍛鋼素材の大型バンドル。
+
+sabakiBladeTrap,Sabaki Blade Trap,サバキ式ブレードトラップ,サバキ監修による高品質トラップ
+sabakiBladeTrapDesc,Sabaki Blade Trap Description,サバキ式ブレードトラップの説明,サバキ監修による安心設計。
+sabakiBladeTrapSchematic,Schematic: Sabaki Blade Trap,設計図「サバキ式ブレードトラップ」,サバキ式トラップの製作図。設置には技術が必要。
+
+sabakiElectricFencePost,Sabaki Electric Fence Post,サバキ式電流フェンスポスト,サバキ監修製品。
+sabakiElectricFencePostDesc,Sabaki Electric Fence Description,サバキ式電流フェンスポストの説明,サバキ監修モデル。
+sabakiElectricFencePostSchematic,Schematic: Sabaki Electric Fence Post,設計図「サバキ式電流フェンスポスト」,電流フェンス設置に必要な技術設計図。
+
+sabakiAutoTurret,Sabaki Auto Turret,サバキ式マシンガンタレット,信頼性の高いサバキ製造。
+sabakiAutoTurretDesc,Sabaki Auto Turret Description,サバキ式マシンガンタレットの説明,サバキ製のタレット専用弾のみ使用可能。
+sabakiAutoTurretSchematic,Schematic: Sabaki Auto Turret,設計図「サバキ式マシンガンタレット」,タレットをクラフト可能にする設計図。
+
+sabakiShotgunTurret,Sabaki Shotgun Turret,サバキ式ショットガンタレット,弾倉はサバキ製専用シェル。
+sabakiShotgunTurretDesc,Sabaki Shotgun Turret Description,サバキ式ショットガンタレットの説明,サバキ製ショットガンシェルのみ装填可能。
+sabakiShotgunTurretSchematic,Schematic: Sabaki Shotgun Turret,設計図「サバキ式ショットガンタレット」,散弾タレットの製作図。
+
+sabakiDartTrap,Sabaki Dart Trap,サバキ式炸裂ダーツトラップ,炸裂ダーツを装填可。
+sabakiDartTrapDesc,Sabaki Dart Trap Description,サバキ式炸裂ダーツトラップの説明,特殊炸裂ダーツ使用。
+sabakiDartTrapSchematic,Schematic: Sabaki Dart Trap,設計図「サバキ式炸裂ダーツトラップ」,サバキ式ダーツトラップの設計図。
+
+sabakiFrameShapes:VariantHelper,Sabaki Construction Block,サバキ式建築ブロック,建築強化素材のベースに使用される多目的ブロック。
+sabakiFrameShapesDesc,,,,
+sabakiFrameShapes:VariantHelperSchematic,Schematic: Sabaki Construction Block,設計図「サバキ式建築ブロック」,建築ブロックをクラフト可能にする設計図。
