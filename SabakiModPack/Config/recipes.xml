@@ -1,0 +1,86 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="resourceClayLumpBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceClayLump" count="6000"/>
+		</recipe>
+		<recipe name="resourceCrushedSandBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceCrushedSand" count="6000"/>
+		</recipe>
+		<recipe name="resourceScrapBrassBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceScrapBrass" count="6000"/>
+		</recipe>
+		<recipe name="resourceCoalBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceCoal" count="6000"/>
+		</recipe>
+		<recipe name="resourcePotassiumNitratePowderBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourcePotassiumNitratePowder" count="6000"/>
+		</recipe>
+		<recipe name="resourceBrokenGlassBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceBrokenGlass" count="6000"/>
+		</recipe>
+		<recipe name="resourceCobblestoneBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceCobblestones" count="6000"/>
+		</recipe>
+		<recipe name="resourceConcreteMixBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceConcreteMix" count="6000"/>
+		</recipe>
+		<recipe name="resourceCementBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceCement" count="6000"/>
+		</recipe>
+		<recipe name="resourceForgedIronBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceForgedIron" count="6000"/>
+		</recipe>
+		<recipe name="resourceForgedSteelBundle" count="1" craft_time="10" craft_exp_gain="0" tags="learnable">
+			<ingredient name="resourceForgedSteel" count="6000"/>
+		</recipe>
+		
+		<recipe name="sabakiBladeTrap" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		
+		<recipe name="sabakiElectricFencePost" count="2" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		
+		<!-- Turrets -->
+		<recipe name="sabakiAutoTurret" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		<recipe name="sabakiShotgunTurret" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+
+		<!-- Dart Trap -->
+		<recipe name="sabakiDartTrap" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+
+		<!-- Ammo -->
+		<recipe name="ammoExplodDartJP" count="30000" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		<recipe name="Ammo9mmJP" count="13000" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		<recipe name="AmmoSGShlJP" count="6000" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		<recipe name="Ammo762mmJP" count="9000" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		<recipe name="Ammo44MagJP" count="4500" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		<recipe name="TurretAmmo9mmJP" count="30000" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		<recipe name="TurretAmmoSGShlJP" count="30000" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+
+		<!-- Blocks -->
+		<recipe name="sabakiFrameShapes:VariantHelper" count="1" craft_area="backpack" craft_tool="none" tags="learnable">
+			<ingredient name="resourceWood" count="1"/>
+		</recipe>
+	</append>
+</configs>

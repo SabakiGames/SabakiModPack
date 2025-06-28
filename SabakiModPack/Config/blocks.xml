@@ -1,0 +1,155 @@
+<configs>
+	<append xpath="/blocks/block[@name='forge']/property[@name='AcceptedItems']/value">
+		<value>resourceClaySoilBulk</value>
+		<value>resourceBrassBulk</value>
+		<value>resourceCoalBulk</value>
+		<value>resourcePotassiumNitratePowderBulk</value>
+		<value>resourceSandBulk</value>
+		<value>resourceBrokenGlassBulk</value>
+	</append>  
+	<set xpath="/blocks/block[@name='forge']/property[@name='StorageSlots']/@value">6</set>
+	
+	<append xpath="/blocks/block[@name='steelShapes']">
+		<property class="UpgradeBlock">
+		<property name="ToBlock" value="sabakiBrickShapes"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</append>
+	
+	<block name="sabakiBladeTrap">
+		<property name="Extends" value="bladeTrap"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="craftingTraps"/>
+		<property name="Material" value="MsabakiBladeTrap"/>
+		<property name="MaxDamage" value="15000"/>
+		<property name="Damage" value="300"/>
+		<property name="CustomIcon" value="bladeTrap"/>
+		<property name="CustomIconTint" value="ff69b4"/>
+		<property name="EconomicValue" value="2500"/>
+		<property class="RepairItems">
+			<property name="resourceForgedSteel" value="1"/>
+		</property>
+		<property name="SortOrder1" value="B155"/>
+		<property name="SortOrder2" value="0021"/>
+		<property name="Group" value="Science,TCScience"/>
+		<property name="Tags" value="trapsSkill"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_electrical,SC_traps"/>
+	</block>  
+	
+	<block name="sabakiElectricFencePost">
+		<property name="Extends" value="electricfencepost"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="craftingTraps"/>
+		<property name="Material" value="MsabakiElectricFencePost"/>
+		<property name="MaxDamage" value="10000"/>
+		<property name="CustomIcon" value="electricfencepost"/>
+		<property name="CustomIconTint" value="ff69b4"/>
+		<property name="EconomicValue" value="500"/>
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="1"/>
+		</property>
+		<property name="SortOrder1" value="B155"/>
+		<property name="SortOrder2" value="0018"/>
+		<property name="Group" value="Science,TCScience"/>
+		<property name="Tags" value="trapsSkill"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_electrical,SC_traps"/>
+	</block>
+	
+	<block name="sabakiAutoTurret">
+		<property name="Extends" value="autoTurret"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="craftingTraps"/>
+		<property name="AmmoItem" value="TurretAmmo9mmJP"/>
+		<property name="Material" value="MsabakiTrapAlloy"/>
+		<property name="CustomIcon" value="autoTurret"/>
+		<property name="CustomIconTint" value="ff69b4"/>
+		<property name="MaxDamage" value="15000"/>
+		<property name="EconomicValue" value="4000"/>
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="1"/>
+		</property>
+	</block>
+	<block name="sabakiShotgunTurret">
+		<property name="Extends" value="shotgunTurret"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="craftingTraps"/>
+		<property name="AmmoItem" value="TurretAmmoSGShlJP"/>
+		<property name="Material" value="MsabakiTrapAlloy"/>
+		<property name="CustomIcon" value="shotgunTurret"/>
+		<property name="CustomIconTint" value="ff69b4"/>
+		<property name="MaxDamage" value="15000"/>
+		<property name="EconomicValue" value="4000"/>
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="1"/>
+		</property>
+	</block>
+	<block name="sabakiDartTrap">
+		<property name="Extends" value="dartTrap"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="UnlockedBy" value="craftingTraps"/>
+		<property name="AmmoItem" value="ammoExplodDartJP"/>
+		<property name="Material" value="MsabakiTrapAlloy"/>
+		<property name="CustomIcon" value="dartTrap"/>
+		<property name="CustomIconTint" value="ff69b4"/>
+		<property name="MaxDamage" value="10000"/>
+		<property name="EconomicValue" value="5500"/>
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="1"/>
+		</property>
+	</block>
+
+    <!-- sabakiFrameShapes -->
+    <block name="sabakiFrameShapes" shapes="All">
+		<property name="Extends" value="woodFrameShapes"/>
+		<property name="Material" value="MsabakiFrameBlocks"/>
+		<property name="Texture" value="65"/>
+		<property name="UiBackgroundTexture" value="65"/>
+		<property name="EconomicValue" value="10"/>
+		<property name="EconomicBundleSize" value="20"/>
+		<property name="FuelValue" value="100"/>
+		<property name="CanPickup" value="true"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="sabakiBrickShapes"/>
+			<property name="Item" value="resourceForgedSteel"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property class="RepairItems">
+			<property name="resourceWood" value="1"/>
+		</property>
+		<property name="UpgradeSound" value="place_block_metal"/>
+		<property name="SortOrder1" value="S070"/>
+		<property name="Tags" value="wood"/>
+		<property name="Group" value="Basics,Building,advBuilding"/>
+		<property name="FilterTags" value="MC_Shapes"/>		
+		<drop event="Harvest" name="resourceWood" prob="1" count="25" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceForgedSteel" prob="1" count="10" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceForgedIron" prob="1" count="10" tag="allHarvest"/>
+    </block>
+	
+	<!-- sabakiBrickShapes -->	
+	<block name="sabakiBrickShapes" shapes="All">
+		<property name="Extends" value="concreteShapes"/>
+		<property name="Material" value="MsabakiBrickBlocks"/>
+		<property name="DisplayType" value="blockHardened"/>
+		<property name="Texture" value="7"/>
+		<property name="UiBackgroundTexture" value="7"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="SortOrder1" value="S040"/>
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="FilterTags" value="MC_Shapes"/>
+		<property class="RepairItems">
+			<property name="resourceForgedSteel" value="1"/>
+		</property>
+		<drop event="Harvest" name="resourceForgedSteel" prob="1" count="50" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceForgedIron" prob="1" count="50" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceMechanicalParts" prob="1" count="25" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceElectricParts" prob="1" count="25" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceRepairKit" prob="1" count="10" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceLegendaryParts" prob="1" count="1" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceOil" prob="1" count="100" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceCoalBundle" prob=".1" count="1" tag="allHarvest"/>
+	</block>	
+</configs>
